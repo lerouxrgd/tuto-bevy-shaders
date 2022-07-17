@@ -7,25 +7,16 @@ edition = "2021"
 opt-level = 1
 
 [profile.dev.package."*"]
-opt-level = 3
+opt-level = "z"
 
 [dependencies]
 bevy = { version = "0.7", features = [
-    "bevy_gilrs",
     "bevy_winit",
-    "render",
-    "png",
-    "hdr",
-    "vorbis",
-    "x11",
+    "dynamic",
     "filesystem_watcher",
-    "trace"
-     ] }
-
-bevy_kira_audio = { version = "0.9", features = ["ogg", "wav"] }
+    "hdr",
+    "png",
+    "render",
+    "x11"
+] }
 bevy-inspector-egui = "0.10"
-serde = "1.0"
-ron = "0.7"
-rand = "0.8"
-
-# cargo run --release --features bevy/trace,bevy/trace_chrome

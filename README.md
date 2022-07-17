@@ -1,10 +1,9 @@
-# Bevy Tutorial Template
+# Bevy Shader Tutorial
 
-A simple template to base [Bevy](https://bevyengine.org/) tutorials from. Creates a window, adds common dependancies, and sets up debugging utils.
+Videos: https://www.youtube.com/playlist?list=PLT_D88-MTFOMNRPAC-62Hz096aIjT4Noy
 
-# Usage
+Code: https://github.com/mwbryant/logic-projects-bevy-shader-tutorial
 
 ```
-cargo install cargo-generate
-cargo generate --git https://github.com/mwbryant/logic_projects_bevy_template
+cargo run
 ```
