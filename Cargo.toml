@@ -1,6 +1,6 @@
 [package]
 name = "tuto_bevy_shaders"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 [profile.dev]
@@ -10,7 +10,7 @@ opt-level = 1
 opt-level = "z"
 
 [dependencies]
-bevy = { version = "0.7", features = [
+bevy = { version = "0.8", features = [
     "bevy_winit",
     "dynamic",
     "filesystem_watcher",
@@ -19,4 +19,4 @@ bevy = { version = "0.7", features = [
     "render",
     "x11"
 ] }
-bevy-inspector-egui = "0.10"
+bevy-inspector-egui = "0.12"
